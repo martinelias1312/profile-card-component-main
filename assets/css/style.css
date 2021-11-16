@@ -1,4 +1,27 @@
-/* General */ 
+/* general */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+}
+
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
@@ -7,13 +30,21 @@ body {
     background-position: -20em -30em, 40em 33em;
 }
 
+/* profile card */
 main {
    width: 21.875em; 
+   height: 25em;
    text-align: center;
    background-color: #fff;
    border-radius: 3%;
 }
 
+/* profile photo */
+main a {
+    background: url(../img/image-victor.jpg) no-repeat;
+}
+
+/* profile name, age, city */
 main h1 {
     font-size: 1.125em;
     font-weight: 700;
@@ -32,7 +63,18 @@ main h1 {
     padding-bottom: 1.5em;
 }
 
+/* profile stats */
+.followers {
+    float: left;
+}
 
+.likes {
+    float: left;
+}
+
+.photos {
+    float: left;
+}
 
 /* Footer Signature */
 .attribution { font-size: 0.6875em; text-align: center; }
