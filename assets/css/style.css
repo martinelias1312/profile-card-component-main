@@ -8,12 +8,31 @@ body {
 }
 
 main {
-    margin: 0 auto;
+   width: 21.875em; 
+   text-align: center;
+   background-color: #fff;
+   border-radius: 3%;
 }
 
 main h1 {
     font-size: 1.125em;
+    font-weight: 700;
 }
+
+.age {
+    margin-left: 0.625em;
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+
+.city {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    border-bottom: solid 0.01em hsl(0, 0%, 85%);
+    padding-bottom: 1.5em;
+}
+
+
 
 /* Footer Signature */
 .attribution { font-size: 0.6875em; text-align: center; }
