@@ -1,13 +1,22 @@
-
-
 /* General */ 
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    background-position: -20em -30em, 40em 33em;
+}
+
+main {
     margin: 0 auto;
 }
 
+main h1 {
+    font-size: 1.125em;
+}
+
 /* Footer Signature */
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.6875em; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* Media Queries - Mobile: 375px - Desktop: 1440px */
