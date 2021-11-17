@@ -28,7 +28,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [https://github.com/smradupan/profile-card-component-main](https://github.com/smradupan/profile-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://profile-card-component-main-ten-orcin.vercel.app/](https://profile-card-component-main-ten-orcin.vercel.app/)
 
 ## My process
 
