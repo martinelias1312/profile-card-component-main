@@ -32,8 +32,8 @@ body {
 
 /* profile card */
 main {
-   width: 21.875em; 
-   height: 25em;
+   max-width: 21.875em; 
+   height: max-content;
    text-align: center;
    background-color: #fff;
    border-radius: 3%;
@@ -64,6 +64,13 @@ main h1 {
 }
 
 /* profile stats */
+.group li {
+    list-style: none;
+    font-size: 1.125em;
+    font-weight: 700;
+    padding-left: 10%;
+}
+
 .followers {
     float: left;
 }
@@ -74,6 +81,12 @@ main h1 {
 
 .photos {
     float: left;
+}
+
+.stats {
+    font-size: 0.7em;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
 
 /* Footer Signature */
