@@ -24,24 +24,32 @@ html {
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 100%;
     background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
     background-color: hsl(185, 75%, 39%);
     background-repeat: no-repeat;
-    background-position: -20em -30em, 40em 33em;
+    background-position: -17em -30em, 40em 28em;
 }
 
 /* profile card */
 main {
-   max-width: 21.875em; 
-   height: max-content;
-   text-align: center;
-   background-color: #fff;
-   border-radius: 3%;
+    margin: 15em auto;
+    max-width: 21.875em; 
+    height: max-content;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5% 5% 4% 4%;
+}
+
+main img:first-of-type {
+    border-radius: 1em 1em 0 0;
 }
 
 /* profile photo */
-main a {
-    background: url(../img/image-victor.jpg) no-repeat;
+.profile-photo {
+    margin-top: -3.75em;
+    border-radius: 50%;
+    border: solid 0.35em #fff;
 }
 
 /* profile name, age, city */
