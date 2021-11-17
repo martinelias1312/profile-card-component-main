@@ -109,3 +109,8 @@ main h1 {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* Media Queries - Mobile: 375px - Desktop: 1440px */
+@media screen and ( max-width: 375px ) {
+    body{
+        background-position: -48em -33em, 6em 28em;
+    }    
+}
