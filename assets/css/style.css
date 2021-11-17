@@ -33,7 +33,7 @@ body {
 
 /* profile card */
 main {
-    margin: 15em auto;
+    margin: 15em auto 1em;
     max-width: 21.875em; 
     height: max-content;
     text-align: center;
@@ -69,14 +69,20 @@ main h1 {
     color: hsl(0, 0%, 59%);
     border-bottom: solid 0.01em hsl(0, 0%, 85%);
     padding-bottom: 1.5em;
+    margin-bottom: 0;
 }
 
 /* profile stats */
+.group {
+    margin: 0 auto;
+    padding: 1em;
+}
+
 .group li {
     list-style: none;
     font-size: 1.125em;
     font-weight: 700;
-    padding-left: 10%;
+    padding-left: 2.3em;
 }
 
 .followers {
@@ -95,6 +101,7 @@ main h1 {
     font-size: 0.7em;
     font-weight: 400;
     color: hsl(0, 0%, 59%);
+    margin-top: 0.3125em;
 }
 
 /* Footer Signature */
